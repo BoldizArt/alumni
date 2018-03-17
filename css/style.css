@@ -1,0 +1,398 @@
+html, body{
+  height: 100%;
+}
+.meni {
+	min-width: 100%;
+	background: #000;
+	padding: 10px 0;
+	min-height: 45px;
+}
+.active2 {
+	border-bottom: 2px solid #000;
+}
+.ulogovanje{
+	padding: 2px 6px;
+	text-align: center;
+	width: 95px;
+	border: 1px solid #eaeaea;
+	border-radius: 15px;
+	color: #eaeaea;
+	float: right;
+}
+.mright20{
+	margin-right: 20px;
+}
+.mobile-hide.regiactive:hover, 
+.regiactive, 
+.ulogovanje:hover{
+	background: #eaeaea;
+	color: #000;
+	text-decoration: none;
+}
+input.full{
+  position: relative
+}
+.regi input.inp{
+  width: 80%;
+  padding: 5px 10px;
+}
+.regi input.btn{
+  background: none;
+  border: 1px solid grey;
+  padding: 5px 25px;
+}
+.regi input.btn:hover{
+  background: black;
+  color: white;
+}
+.regi a{
+  color: black;
+}
+.regi a:hover{
+  text-decoration: underline;
+}
+.clear{
+	clear: both;
+}
+.pretraga{
+	float: right;
+	padding: 0px 2px ;
+	margin-right: 20px;
+}
+.pretraga input{
+	padding: 2px 10px;
+	background: #000;
+	border: 1px solid #eaeaea;
+	border-radius: 1px;
+	color: #eaeaea;
+}
+img.pretraga_slika{
+  width:50px; 
+  border-radius: 50px;
+}
+a.pocetna{
+  position: absolute;
+  padding: 15px 30px;
+}
+a.pocetna:hover{
+  text-decoration: none;
+}
+a.pocetna span{
+  color: #777;
+  font-weight: bold;
+}
+a.stari_sajt{
+  color: #777;
+  margin-left: 45px;
+}
+.min_visina{
+  min-height: 84%;
+}
+footer.footer{
+	text-align: center;
+	background: #000;
+	color: #eaeaea;
+  position: static;
+  bottom: 0;
+}
+.paddtb-32{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.paddtb-64{
+	padding-bottom: 64px;
+}
+.paddb-32{
+  padding-bottom: 32px;
+}
+.paddt-64{
+  padding-top: 64px;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.citat{
+	color: grey;
+}
+div.cw img{
+  width: 150px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #111;
+  opacity: 0.75;
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+  height: 0;
+  transition: .5s ease;
+}
+.cont:hover .overlay {
+  height: 70%;
+}
+ul.nav li a span:hover, 
+ul.nav li a span.bbactive{
+  border-bottom: 2px solid black;
+}
+.responzive_registracija{
+  width: 75%;
+  margin: auto;
+}
+.text {
+	padding: 20px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	overflow: hidden;
+}
+.text a{
+	padding: 2px 5px;
+	text-align: justify;
+	width: 95px;
+	border: 1px solid #eaeaea;
+	border-radius: 2px;
+	color: #eaeaea;
+	float: right;
+	margin: 0 auto;
+}
+.text a:hover{
+	background: #eaeaea;
+	color: #000;
+	text-decoration: none;
+}
+.desktop-hide, 
+ul.nav li.desktop-hide{
+	display: none;
+}
+.naslovna {
+    background-image: url("../img/graduation.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.statistika{
+    background-image: url("../img/pupin2.jpg");
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black{
+	background: black;
+}
+.paddtb-32 h2{
+	color:white;
+}
+.margt64{
+	margin-top: 64px;
+}
+.red{
+	background: red;
+}
+.cw{
+	color: white;
+}
+.foo_btn{
+	float: right;
+	position: static;
+	padding: 5px 10px;
+	margin-right: 20px;
+	background: #4d4d4d;
+	color: #000;
+}
+.foo_btn:hover{
+	background: #fff;
+}
+.foo_btn {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+.dupli{
+	font-size: 350%;
+}
+i.font-36{
+ 	font-size: 48px;
+ }
+
+.tablet-show{
+  display: none;
+}
+#velicina{
+  font-size: 1.7em;
+}
+input.rezultat{
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+input.greska_broj{
+  border-color: #a94442;
+}
+div.citat,
+p.citat{
+  width: 90%;
+}
+/*Naši studenti*/
+img.nasi_studenti{
+  width: 65px; 
+  border-radius: 50px
+}
+/*Download PDF dugme*/
+a.downl{
+  color: #eaeaea;
+  font-size: 15pt;
+}
+div.downl_f{
+  width: 45px;
+  height: 45px;
+  float: right;
+  padding: 8px;
+  text-align: center;
+  position: fixed;
+  border: 1px solid #eaeaea;
+  right:0;
+  top: 96px;
+}
+div.downl_f:hover{
+  background: #000;
+  color:#fefefe;
+  border: 1px solid #000;
+}
+div.downl_f:hover a{
+  color:#fefefe;
+}
+/*Studenti - početna strana*/
+div.pocetna_studenti img{
+  border-radius: 500px;
+  /*Kod desktop uređaja*/
+  width: 75%;
+}
+img.profilna_slika{
+  border-radius: 500px;
+  width: 85%;
+}
+.mar_to25{
+  margin-top: 25px
+}
+div.pocetna_studenti a{
+  text-decoration: none; 
+  color: #000;
+}
+div.pocetna_studenti a.detaljnije{
+  color: #fff;
+}
+div.pocetna_studenti a.detaljnije:hover{
+  color: #000;
+}
+div.pocetna_studenti hr{
+  width:50%; 
+  margin: 3px auto;
+  border-bottom: 2px solid grey;
+}
+/*STATISTIKA*/
+div.statistika p,
+div.statistika h2{
+  color: #fff;
+  font-weight: 600;
+}
+/*SLAJDER*/
+#myCarousel{
+  width: 90%;
+  margin: 32px auto 64px auto;
+}
+div.pocetna_tekst{
+  min-height: 210px;
+}
+div.item img{
+  border-radius: 500px;
+/*Kod desktop uređaja*/
+  width: 210px;
+}
+ol.carousel-indicators{
+  bottom: -10px;
+}
+ol.carousel-indicators li{
+  border: 2px solid #4d4d4d;
+}
+ol.carousel-indicators li.active{
+  background: #4d4d4d;
+}
+.glyphicon-chevron-right,
+.glyphicon-chevron-left{
+  color: #000;
+}
+.carousel-control.right,
+.carousel-control.left{
+  background: none;
+}
+/* Pretvara ime u capital size u slučaju da neko upisao svoje ime sa velikim ili malim slovima. */
+
+.ime{
+  text-transform: capitalize;
+}
+
+@media (max-width: 1200px) {
+  .overlay {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  #velicina{
+    font-size: 1.3em;
+  }
+   img.profilna_slika{
+  width: 100%;
+  }
+}
+/*Tablet i mobilni uređaji*/
+@media (max-width: 767px) {
+  .tablet-hide{
+    display: none;
+  }
+  .tablet-show{
+    display: block;
+  }
+  #velicina{
+    font-size: 300%;
+  }
+  div.pocetna_studenti img,
+  img.profilna_slika{
+  width: 65%;
+  }
+  div.item img{
+    width: 320px;
+  }
+}
+@media (max-width: 510px) {
+  .mobile-hide {
+    display: none;
+  }
+  .full{
+  	float: none!important;
+  	padding: 2px 20px;
+  	width: 100%;
+  }
+  .desktop-hide,
+  ul.nav li.desktop-hide{
+  	display: block;
+  }
+  .responzive_registracija{
+  width: 100%;
+  }
+  div.pocetna_studenti img,
+  img.profilna_slika{
+  width: 75%;
+  }
+  div.item img{
+    width: 240px;
+  }
+}
+
+

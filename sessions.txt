@@ -1,0 +1,14 @@
+$_SESSION['greska_pass'],
+$_SESSION['osoba_na_cekanju'],
+$_SESSION['osoba_odbacena'],
+$_SESSION['greska_pass'],
+$_SESSION['greska_mail'],
+$_SESSION['nova_lozinka'],
+$_SESSION['email_nepostoji'],
+$_SESSION['poruka_poslata'],
+$_SESSION['kontakt_mail'],
+$_SESSION['sifra_min6'],
+$_SESSION['pass_promenjen'],
+$_SESSION['razlicite_sifre']
+
+
