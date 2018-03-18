@@ -2,8 +2,8 @@
 if ( !defined('ABSPATH')) {
 	die();
 }
-$config['db']['host'] = 'localhost';
-$config['db']['user'] = 'root';
+$config['db']['host'] = '';
+$config['db']['user'] = '';
 $config['db']['pass'] = '';
-$config['db']['name'] = 'alumni';
+$config['db']['name'] = '';
 ?>
